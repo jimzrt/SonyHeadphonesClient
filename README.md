@@ -73,6 +73,16 @@ Use the provided solution file.
 
 Use the provided xcodeproj file.
 
+#### Linux
+
+Tested on Ubunutu 20.04:
+Install build dependencies, compile and run:
+```
+sudo apt install libglfw3-dev libbluetooth-dev build-essential
+cd Client/linux/ && make
+./sonyheadphonesclient.build/sonyheadphonesclient
+```
+
 ### Adding a new platform
 
 There are two platform dependent parts in the code - the GUI and Bluetooth communication.
