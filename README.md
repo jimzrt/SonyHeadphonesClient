@@ -78,9 +78,9 @@ Use the provided xcodeproj file.
 Tested on Ubunutu 20.04:
 Install build dependencies, compile and run:
 ```
-	sudo apt install libglfw3-dev libbluetooth-dev build-essential
-	cd Client/linux/ && make
-	./sonyheadphonesclient.build/sonyheadphonesclient
+sudo apt install libglfw3-dev libbluetooth-dev build-essential
+cd Client/linux/ && make
+./sonyheadphonesclient.build/sonyheadphonesclient
 ```
 
 ### Adding a new platform
